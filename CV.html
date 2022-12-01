@@ -4,116 +4,150 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CV.css">
     <title>CV-Diego</title>
 </head>
 <body>
-    <!--partie droite-->
-    <div class="Right_box">
-        <!--image de profil-->
-        <img src="profil.jpg" alt="Photo_Profil" height="150" width="150">
-         
-        <!--Présentation perso-->
-        <section>
-            <h1>Jean-diego De torres</h1>
-                <h2>Programmer WEB</h2>
-                    <p>texte-textetexte-textetexte-textetexte-textetexte-textetexte-textetexte-textetexte-textetexte-textetexte-textetexte-textetexte-textetexte-textetexte-textetexte-textetexte-texte</p>
-        </section>
-        <hr/> <!--ligne vertical-->
-        <!--Fin de la présentation perso-->
-         
-        <!--experience-->
-        <section>
-            <h2>Expérience professionnel</h2>
-                <article>
-                    <h3>Développeur Full-stack chez simplon</h3>
-                        <a href="https://simplonline.co/">Simplon</a>
-                        <ul>
-                            <li>texte</li>
-                            <li>texte</li>
-                            <li>texte</li>
+    <div class="Box_principale">
+        <!--partie Gauche-->
+        <div class="Left_box">
+            <!--image de profil-->
+            <div class="container_img">
+            <img class="img_profil" src="profil.jpg" alt="Photo_Profil" height="150" width="150">
+            </div>
+            <!--Contact-->
+            <div class="Box_contact">
+                <section>
+                    <h2>CONTACT</h2>
+                    <div class="ligne"></div>
+                        <address>
+                            <p>49 Avenue gaston ribot</p>
+                            <p>30100 Alès,France</p>
+                            <a href="phone:0670750344">06.70.75.03.44</a>
+                            <br/>
+                            <a href="mailto:jeandetorres30140@gmail.com">jeandetorres30140@gmail.com</a>
+                        </address>
+                </section>
+            </div>
+            <hr class="trait"/>
+            <!--Formation-->
+            <div class="Box_formation">
+                <section>
+                    <h2>FORMATION</h2>
+                    <div class="ligne"></div>
+                        <h3 class="h3_white">formation simplon</h3>
+                        <a href="https://simplonline.co/" target="_blank">Simplon</a>
+                        <p>2022-2023<p>
+                </section> 
+            </div>  
+            <hr class="trait"/>
+            <!--Langues-->
+            <div class="Box_langues">
+                <section>
+                    <h2>LANGUES</h2>
+                    <div class="ligne"></div>
+                        <ol class="liste_langues">
+                            <li>Francais: <img src="lvl3.png" alt="niveaux_3" class="image_Lfr" ></li>
+                            <li>espagnol: <img src="lvl2.png" alt="niveaux_3" class="image_Lesp" ></li>
+                            <li>Anglais: <img src="lvl2.png" alt="niveaux_3" class="image_Lang" ></li>
+                        </ol>
+                </section>
+            </div>
+            <hr class="trait"/>
+            <div class="Box_interet">
+                <section>
+                    <h2>CENTRE D'INTERET</h2>
+                    <div class="ligne"></div>
+                        <ul class="liste_interet">
+                            <li>Informatique-Programation</li>
+                            <li>Film-Série-Musique</li>
+                            <li>Sport</li>
                         </ul>
-                </article>
-            <article>
-                <h3>Compétence 2</h3>
-                    <a href="https://simplonline.co/">Simplon</a>
-                    <ul>
-                        <li>texte</li>
-                        <li>texte</li>
-                        <li>texte</li>
-                    </ul>
-            </article>
-            <article>
-                <h3>Compétence 3</h3>
-                    <a href="https://simplonline.co/">Simplon</a>
-                    <ul>
-                        <li>texte</li>
-                        <li>texte</li>
-                        <li>texte</li>
-                    </ul>
-            </article>    
-        </section>
-        <!--experience FIN-->
-        <hr>
-        <!--competence liste-->
-        <section>
-            <h2>COMPETENCES</h2>
-                <ul>
-                    <!--Right-->
-                    <li>texte</li>
-                    <li>texte</li>
-                    <li>texte</li>
-                    <!--Left-->
-                    <li>texte</li>
-                    <li>texte</li>
-                    <li>texte</li>
-                </ul>
-        </section>    
-        <!--FIN competence liste-->
-    </div>
-    <!--Fin De Partie Droite-->
+                </section>
+            </div>
+        </div>
+        <!--Fin de parti Gauche-->
+        <!--partie droite-->
+        <div class="Right_box">
+            <!--Présentation perso-->
+            <div classe="Box_presentation">
+                <section>
+                    <h1>Jean-diego De torres</h1>
+                        <h2 class="Programeur_Web">Programmeur WEB</h2>
+                            <p class="P_moi">Développeur web et web mobile diplômé chez Simplon, 
+                                ayant travaillé plus d’un an sur divers Projet  j'ai pu  acquérir des compétences solides dans le domaine du Front et Back end.
+                                 Passionné par  les nouvelle technologie et la programmation avec une pré-diliction pour les codes denses, structuré et bien commentés</p>
+                </section>
+            </div>
+            <hr class="trait"/> <!--ligne vertical-->
+            <!--Fin de la présentation perso-->
+            
+            <!--experience-->
+            <div class="Box_parcours_pro">
+                <section>
+                    <h2>Expérience professionnel</h2>
+                    <div class="ligne"></div>
+                        <article>
+                            <h3 class="h3_white">Développeur Full-stack chez simplon</h3>
+                                <a href="https://simplonline.co/" target="_blank">Simplon</a>
+                                <ul>
+                                    <li>texte</li>
+                                    <li>texte</li>
+                                    <li>texte</li>
+                                </ul>
+                        </article>
+                    <article>
+                        <h3 class="h3_white">Compétence 2</h3>
+                            <a href="https://simplonline.co/" target="_blank">Simplon</a>
+                            <ul>
+                                <li>texte</li>
+                                <li>texte</li>
+                                <li>texte</li>
+                            </ul>
+                    </article>
+                    <article>
+                        <h3 class="h3_white">Compétence 3</h3>
+                            <a href="https://simplonline.co/" target="_blank">Simplon</a>
+                            <ul>
+                                <li>texte</li>
+                                <li>texte</li>
+                                <li>texte</li>
+                            </ul>
+                    </article>    
+                </section>
+            </div>
+            <!--experience FIN-->
+            <hr class="trait">
+            <!--competence liste-->
+            <div class="Box_competence">
+                <section>
+                    <h2>COMPETENCES</h2>
+                    <div class="ligne"></div>
+                    <div class="container">
+                        <div class="Comp_L">
+                            <!--Left-->
+                            <ul>
+                                 <li class="flex">HTML: <img src="lvl2.png" alt="" class="image_html"></li>
+                                 <li class="flex">CSS: <img src="lvl2.png" alt="" class="image_css"></li>
+                                 <li class="flex">JS:<img src="lvl2.png" alt="" class="image_js"></li>
+                            </ul>     
+                        </div>    
+                        <div class="Comp_R">  
+                                <!--Right-->
+                                <ul>
+                                    <li class="flex">texte</li>
+                                    <li class="flex">texte</li>
+                                    <li class="flex">texte</li>
+                               </ul>     
+                        </div>
+                    </div>    
+                </section> 
+            </div>   
+            <!--FIN competence liste-->
+        </div>
+        <!--Fin De Partie Droite-->
 
-    <!--partie Gauche-->
-    <div class="Left_box">
-        <!--Contact-->
-        <section>
-            <h2>CONTACT</h2>
-                <address>
-                    <p>49 Avenue gaston ribot</p>
-                    <p>30100 Alès,France</p>
-                    <a href="phone:0670750344">06.70.75.03.44</a>
-                    <br/>
-                    <a href="mailto:jeandetorres30140@gmail.com">jeandetorres30140@gmail.com</a>
-                </address>
-        </section>
-        <hr/>
-        <!--Formation-->
-        <section>
-            <h2>FORMATION</h2>
-                <p>formation simplon</p>
-                <a href="https://simplonline.co/">Simplon</a>
-                <p>2022-2023<p>
-        </section>   
-        <hr/>
-        <!--Langues-->
-        <section>
-            <h2>LANGUES</h2>
-                <ol>
-                    <li>Francais:Langue maternelle</li>
-                    <li>espagnol:B1</li>
-                    <li>Anglais:A2</li>
-                </ol>
-        </section>
-        <hr/>
-        <section>
-            <h2>CENTRE D'INTERET</h2>
-                <ul>
-                    <li>Informatique-Programation</li>
-                    <li>Film-Série-Musique</li>
-                    <li>Sport</li>
-                </ul>
-        </section>
+        
     </div>
-    <!--Fin de parti Gauche-->
-    
 </body>
 </html>

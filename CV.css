@@ -1,0 +1,242 @@
+
+body
+{
+    background-color: gray;
+    margin: 100px 300px;
+}
+
+
+/* 3 gros box principale */
+.Box_principale
+{
+    display: flex;
+}
+.Right_box
+{
+    background-color: #152E4C;
+    display: flex;
+    flex-flow: column;
+    padding: 50px;
+}
+.Left_box
+{
+    background-color: #11263F;
+    display: flex;
+    flex-flow: column;
+    padding: 30px;
+    padding-top: 60px;
+}
+/* FIN des box principale */
+
+/* plusieurs Séléction & trait-ligne*/
+
+ul,ol
+{
+    list-style: none;
+    padding-left: 5px;
+}
+
+a[href="https://simplonline.co/"]
+{
+    text-decoration: none;
+    color: #1c58fd ;
+}
+.trait
+{
+box-sizing: border-box;
+width: 100%;
+border: solid #5B6DCD 1px;
+display: flex;
+}
+.ligne
+{
+    box-sizing: border-box;
+    border-bottom: solid #1c58fd 2px;
+    margin-right: 90%;
+}
+.h3_white
+{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 3px ;
+}
+p,ul,ol
+{
+    font-family: Arial,Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    color: #e3e9e9;
+}
+/* Fin de plusieurs Séléction */
+
+/* Partie Gauche */
+
+/* Photo */
+.img_profil
+{
+    border-radius: 50%;
+}
+.container_img
+{
+    display: flex;
+    justify-content: space-around;
+}
+/* Fin de photo */
+
+/* Contact */
+.Box_contact
+{
+
+}
+a[href="phone:0670750344"],a[href="mailto:jeandetorres30140@gmail.com"]
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: #e3e9e9;
+    margin-bottom: 10px ;
+}
+/* Fin Contact */
+/* Formation */
+.Box_formation
+{
+
+}
+/* Fin de Formation */
+
+/* Langues */
+.Box_langues
+{
+}
+.liste_langues
+{
+    display: flex;
+    flex-flow: column;
+    gap: 4px;
+}
+.image_Lfr
+{
+    width: 40px;
+    height: auto;
+    margin-left: 5px;
+}
+.image_Lesp
+{
+    width: 40px;
+    height: auto;
+    margin-left: 2px;
+}
+.image_Lang
+{
+    width: 40px;
+    height: auto;
+    margin-left: 14px;
+}
+/* Fin de Langues */
+
+/* Centre d'interet */
+.Box_interet
+{
+
+}
+.liste_interet
+{
+    display: flex;
+    flex-flow: column;
+    gap: 4px;
+}
+/* Fin de Centre d'interet */
+
+
+/* Fin de Partie Gauche */
+
+/* Partie Droite */
+
+/* présentation de moi */
+.Box_presentation
+{
+
+}
+
+h1
+{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.Programeur_Web
+{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #285494;
+}
+.P_moi
+{
+    font-family: Arial,Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    color: #596779;
+    text-align: justify;
+}
+/* Fin de présentation de moi */
+
+/*expérience Pro*/
+.Box_parcours_pro
+{
+   
+}
+h2
+{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1px;
+}
+/* FIN expérience Pro */
+ 
+/* Compétence */
+.Box_competence
+{
+}
+.container
+{
+    display: flex;
+    flex-flow: nowrap;
+    gap: 150px;
+}
+.Comp_L
+{
+    display: flex;
+    flex-flow: column;
+    
+}
+.Comp_R
+{
+    display: flex;
+    flex-flow: column;
+}
+.image_html
+{
+    width: 40px;
+    height: auto;
+    margin-left: 3px;
+}
+.image_css
+{
+    width: 40px;
+    height: auto;
+    margin-left: 14px;
+}
+.image_js
+{
+    width: 40px;
+    height: auto;
+    margin-left: 32px;
+}
+.flex
+{
+    
+    
+}
