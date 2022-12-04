@@ -16,15 +16,18 @@ body
     background-color: #152E4C;
     display: flex;
     flex-flow: column;
-    padding: 50px;
+    padding: 70px;
+    justify-content: space-evenly;
 }
 .Left_box
 {
     background-color: #11263F;
     display: flex;
     flex-flow: column;
-    padding: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 60px;
+    justify-content: space-evenly;
 }
 /* FIN des box principale */
 
@@ -87,7 +90,6 @@ p,ul,ol
 /* Contact */
 .Box_contact
 {
-
 }
 a[href="phone:0670750344"],a[href="mailto:jeandetorres30140@gmail.com"]
 {
@@ -217,23 +219,23 @@ h2
 }
 .image_html
 {
-    width: 25px;
+    width: 40px;
     height: 15px;
     margin-left: 5px;
     
 }
 .image_css
 {
-    width: 25px;
+    width: 40px;
     height: 15px;
     margin-left: 16px;
    
 }
 .image_js
 {
-    width: 25px;
+    width: 40px;
     height: 15px;
-    margin-left: 30px;
+    margin-left: 31px;
     
 }
 .flex_1,.flex_2,.flex_3
